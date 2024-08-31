@@ -1,0 +1,10 @@
+body{
+    background-color: skyblue;
+}
+div{
+    border:solid 1px grey;
+}
+.button{
+    border: none;
+
+}

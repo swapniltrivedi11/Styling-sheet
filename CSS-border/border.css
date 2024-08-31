@@ -1,0 +1,43 @@
+h1{
+    color: rgb(255, 115, 0);
+}
+p{
+    border-style:dashed;
+    border-top-style: hidden;
+    border-bottom-style: groove;
+    border-right-style: double;
+    border-left-style: dotted;
+    border-width: thick;
+    color: red;
+}
+.short{
+    border-style: hidden hidden solid hidden;
+    border-width: 7px;
+    border-color: red;
+}
+a{
+    border-style: solid;
+    padding:auto;
+    border-color: grey;
+    border-width: 5px;
+    border-radius: 8px;
+    color: grey;
+}
+a:hover{
+    color: black;
+    background-color: grey;
+    border-bottom-left-radius: 20px;
+}
+h1:hover{
+    background-color: black;
+}
+p:hover{
+    color: black;
+    border-color: brown;
+    border-style: solid;
+    }
+    table,tr,td,th{
+        border: solid;
+        border-collapse: collapse;
+        background-color: tomato;
+    }
