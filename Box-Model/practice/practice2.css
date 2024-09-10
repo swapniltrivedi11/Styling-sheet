@@ -1,0 +1,30 @@
+.f{
+   border: dotted; 
+}
+.s{
+    border: dashed;
+}
+.t{
+    border: solid;
+}
+.fourth{
+    border: double;
+}
+.fifth{
+    border: groove;
+}
+.sixth{
+    border: ridge;
+}
+.seventh{
+    border: inset;
+}
+.eight{
+    border: outset;
+}
+.ninth{
+    border: hidden;
+}
+.tenth{
+    border-style: dotted dashed double solid;
+}

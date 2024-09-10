@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(241, 166, 166);
+    margin: 0px;
+}
+.heading{
+    background-color: rgb(105, 25, 25);
+    color: aliceblue;
+    border: dotted aqua;
+    margin:0px 300px;
+    padding: 7px;
+    width: 350px;
+    height: 40px;    
+}
+.dare{
+    background-color: rgb(137, 137, 196);
+    margin: 6px;
+    border: double 6px darkblue;
+    border-bottom-width: 7px;
+}
+.Lorem{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    text-align: justify;
+    margin: 10px;
+    max-height: 100px;
+    overflow: auto !important;/*best way to using this not applying x and y*/
+}

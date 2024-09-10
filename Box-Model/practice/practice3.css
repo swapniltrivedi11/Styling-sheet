@@ -1,0 +1,12 @@
+p{
+    border: solid;
+    margin: 25px 50px 75px 100px;
+}
+h1{
+    border: double;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+    margin-left: 350px;
+    
+}

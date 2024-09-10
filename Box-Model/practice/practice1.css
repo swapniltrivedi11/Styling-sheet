@@ -1,0 +1,11 @@
+img{
+    width: 350px;
+    height: 350px;
+    border: double 7px;
+}
+p{
+    border: solid;
+    font-weight: bold;
+    width: 380px;
+    padding:5px;
+}
