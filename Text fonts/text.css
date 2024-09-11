@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+h1{
+    color: aqua;
+    
+}
+p{
+    color: rgb(230, 196, 196);
+    letter-spacing: 1.5px;
+    word-spacing: 7px;
+    border: solid;
+    padding: 30px 20px;
+    text-align: justify;
+}
+.lorem{
+    direction:rtl;
+    border: none;
+   
+    
+}
+#indint{
+    text-indent: 5cm;
+    
+}
+.decoration{
+    text-decoration:line-through;
+    text-transform:uppercase;
+   
+}
+.shadow{
+    text-shadow:10px 10px 20px rgb(230, 110, 110);
+    color: darkred; 
+    font-size: 200px;
+}

@@ -1,0 +1,24 @@
+img{
+    border-radius: 1000px;
+    width: 100px;
+    border-style: double;
+    border-color: red;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    margin: 100px;
+}
+.container{
+       text-align: justify;
+      
+    }
+.container >img{
+    float:inline-start;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline double white;
+    display: grid;
+}

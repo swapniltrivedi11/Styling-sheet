@@ -1,0 +1,14 @@
+.roman{
+    font-family: 'Times New Roman', Times, serif;
+}
+.arial{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.lucida{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+    font-size: 30px;
+    font-style: italic;
+}
