@@ -11,6 +11,7 @@ body{
 }
 .container{
        text-align: justify;
+       text-indent: 200px;
       
     }
 .container >img{
