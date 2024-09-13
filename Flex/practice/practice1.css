@@ -1,0 +1,25 @@
+.container{
+     display: flex;
+}
+.item1{
+     background-color: red;
+     height: 50px;
+     width: 200px;
+     flex-grow: 1.5;
+
+}
+.item2{
+    background-color: blue;
+    height: 50px;
+     width: 200px;
+}
+.item3{
+    background-color: yellow;
+    height: 50px;
+     width: 200px;
+}
+.item4{
+   background-color: pink;
+   height: 50px;
+     width: 200px;
+}
