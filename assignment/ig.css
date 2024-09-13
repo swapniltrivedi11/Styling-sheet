@@ -7,20 +7,26 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    
 }
 .inner{
+    
     height: 90px;
     width: 90px;
     border: solid white 15px;
-    display: flex;
+    display: grid;
     border-radius: 30px;
   justify-content: center;
+  position: relative;
   align-items: center;
     
 }
 body{
-    background-color: black;
-    
+     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .in{
     height: 30px;
@@ -35,8 +41,8 @@ body{
     width: 2px;
     border: solid white 5px;
     position: absolute;
-    left: 110px;
-    top: 49px;
+    left: 72px;
+    top: 6px;
     border-radius: 100px;
     background-color: white;
 }
