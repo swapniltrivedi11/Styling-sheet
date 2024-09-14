@@ -1,0 +1,25 @@
+.wrapper{
+     display: grid;
+     grid-template-columns: 120px 120px 120px;
+     grid-template-areas: 
+          ".......  header header"
+          "sidebar content content"
+     ;
+}
+.item{
+    border: solid white;
+    background-color: rgb(76, 74, 74);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.item1{
+    grid-area: header;
+    background-color: rgb(168, 163, 163);
+}
+.item2{
+    grid-area: sidebar;
+}
+.item3{
+    grid-area: content;
+}

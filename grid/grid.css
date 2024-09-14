@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(3,200px );
+    grid-template-rows: repeat(3,200px 200px);  */
+      /*we can set 1fr 2Fr according to that this will double the column*/
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 60px;/*for both*/
+    grid-template-areas: 
+        "header header "
+        "sidebar content"
+        "footer slidebar";
+    grid-auto-rows: minmax(150px , auto);
+    grid-auto-columns:minmax(150px , auto);
+    justify-content: start ;
+    /* align-items: center; */
+    
+}
+
+.grid-item-1{
+        /* grid-area: header; */
+        grid-column-start:1 ;
+        grid-column-end: 4; 
+}
+
+.grid-item-2{
+        /* grid-area: sidebar; */
+        grid-row-start: 2;
+        grid-row-end: 4;
+}
+
+.grid-item-3{
+        /* grid-area: content; */
+        grid-column:2/6;
+        grid-row: 2/3;
+}
+.grid-item-4{
+         /* grid-area: footer; */
+         grid-column: 2/4;
+         grid-row: 3/5; 
+}
+.grid-item-5{
+       /* grid-area:slidebar ;
+ */ grid-column: 6/8;
+ grid-row: 2;
+}

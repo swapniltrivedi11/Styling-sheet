@@ -1,0 +1,21 @@
+:root{
+    --backgroundcolor:  #e8e592;
+    --textColor:#000000;
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:var(--backgroundcolor);
+    color:var(--textColor);
+}
+.grid-item{
+    
+    padding: 10px 15px;
+    border: solid white 1px;
+    background: darkcyan;
+}

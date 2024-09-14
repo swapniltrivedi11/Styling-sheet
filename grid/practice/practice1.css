@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    /* box-sizing: border-box; */
+   
+    
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+  
+}
+.item{
+    border: solid 2px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 7px;
+    background-color:grey;
+    color: white;
+    justify-content: center;
+    align-content: center;
+
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
