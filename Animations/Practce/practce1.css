@@ -1,0 +1,20 @@
+
+
+.child {
+   
+    width: 100px;
+    height: 100px;
+    
+   align-items: end;
+   background-color: red;
+  animation: colorchange 4s linear 2s infinite ;
+ 
+}
+@keyframes colorchange{
+    from{
+        background-color:red; 
+    }
+    to{
+        background-color:yellow;
+    }
+}

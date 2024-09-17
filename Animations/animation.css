@@ -1,0 +1,46 @@
+*{
+    background-color: aquamarine;
+
+   
+}
+.container{
+    background-color: blue;
+    width: 600px;
+    height: 600px;
+}
+.child{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: all 1.5s ease-in-out;
+    animation: round 2s ease-in-out infinite backwards alternate;
+}
+.container:hover >.child{
+    /* background-color: green;*/
+    transform: translateX(500%) translateY(500%); 
+    animation: round 2s ease-in-out 4 backwards alternate; 
+     
+    animation-play-state: none;
+    animation-fill-mode: forwards;
+}
+@keyframes round{
+    /* states in the animation */
+    /* intaial, pre-mid, mid, post mid, end
+*/
+ 0%{
+    transform:translateX(0%);
+}
+27%{
+    transform: translateY(500%);
+}
+75%{
+    transform: translateX(500%) translateY(500%);
+    
+}
+
+100%{
+    transform:translateX(500%);
+    
+}
+
+}
