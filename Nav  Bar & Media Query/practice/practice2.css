@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+    
+    overflow: hidden;
+}
+a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    float: left;
+   
+    text-align: center;
+}
+a:hover{
+    border-bottom: skyblue solid 3px;
+    
+
+
+}
+a:active{
+    border-bottom: skyblue solid 5px;
+}

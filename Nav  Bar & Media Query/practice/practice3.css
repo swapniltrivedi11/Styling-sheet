@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+    padding: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: bold;
+    overflow: hidden;
+    
+}
+li{
+    list-style-type: none;
+    padding: 0px 0px 10px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: coral;
+}
+a:active{
+    color: coral;
+}
